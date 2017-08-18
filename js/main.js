@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $("ul.nav li.dropdown").hover(function(){
-        $(this).find(".dropdown-menu").stop(true,true).delay(150).fadeIn();
+        $(this).find(".dropdown-menu").stop(true,true).delay(125).fadeIn();
     },function(){
-        $(this).find(".dropdown-menu").stop(true,true).delay(150).fadeOut();
+        $(this).find(".dropdown-menu").stop(true,true).delay(125).fadeOut();
     });
 
-    window.sr = ScrollReveal();
+    window.sr = ScrollReveal({reset:true,mobile:true});
     sr.reveal(".fadeInRight",{
         origin:"right",
         distance:"65px",
@@ -39,4 +39,6 @@ $(document).ready(function(){
         durartion:750,
         delay:200,
     });
+		
+		
 });

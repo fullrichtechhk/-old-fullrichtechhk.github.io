@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 html,body{
     height:100%;
-		overflow-x: hidden;
 }
+
+html{
+	overflow-x:hidden;
+}
+
 body{
     background: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -119,13 +123,14 @@ body>section{
     border-radius:0;
     border:none;
     background-color:#151515;
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top:15px;
+    padding-bottom:10px;
 }
 
 .navbar-inverse .navbar-brand{
     color:#ccc;
     font-size:20px;
+		padding:10px 15px 15px 15px;
 }
 
 .navbar-inverse .navbar-nav > li {
@@ -135,6 +140,7 @@ body>section{
 .navbar-inverse .navbar-nav > li > a{
     color:#fff;
     font-size:17px;
+		padding:10px 7px;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
