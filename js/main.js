@@ -5,7 +5,7 @@ $(document).ready(function(){
         $(this).find(".dropdown-menu").stop(true,true).delay(125).fadeOut();
     });
 
-    window.sr = ScrollReveal({reset:true,mobile:true});
+    window.sr = ScrollReveal({mobile:true});
     sr.reveal(".fadeInRight",{
         origin:"right",
         distance:"65px",
